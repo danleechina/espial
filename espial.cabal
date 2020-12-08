@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7535921358f6f30b353ed1ea8a7bfff26aa471228add3c6392836563ee7fc58d
+-- hash: 1650639c840b5a0225e074549d91060c045226bbcc715306707a5634f16a8fb2
 
 name:           espial
 version:        0.0.8
@@ -171,7 +171,7 @@ library
     , unordered-containers
     , vector
     , wai
-    , wai-extra >=3.0 && <3.1
+    , wai-extra >=3.0 && <4
     , wai-logger >=2.2 && <2.4
     , warp >=3.0 && <3.4
     , yaml >=0.8 && <0.12
@@ -245,7 +245,7 @@ executable espial
     , unordered-containers
     , vector
     , wai
-    , wai-extra >=3.0 && <3.1
+    , wai-extra >=3.0 && <4
     , wai-logger >=2.2 && <2.4
     , warp >=3.0 && <3.4
     , yaml >=0.8 && <0.12
@@ -316,7 +316,7 @@ executable migration
     , unordered-containers
     , vector
     , wai
-    , wai-extra >=3.0 && <3.1
+    , wai-extra >=3.0 && <4
     , wai-logger >=2.2 && <2.4
     , warp >=3.0 && <3.4
     , yaml >=0.8 && <0.12
@@ -391,7 +391,7 @@ test-suite test
     , unordered-containers
     , vector
     , wai
-    , wai-extra >=3.0 && <3.1
+    , wai-extra >=3.0 && <4
     , wai-logger >=2.2 && <2.4
     , warp >=3.0 && <3.4
     , yaml >=0.8 && <0.12
